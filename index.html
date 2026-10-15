@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberTech RD - Resurrección Digital</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <!-- Pantalla de Error / Recuperación Inicial -->
+    <div id="overlay-error" class="overlay-error">
+        <div class="glitch-box">
+            <h1 class="glitch" data-text="SYSTEM ERROR: 404 RESURRECTION">SYSTEM ERROR: 404 RESURRECTION</h1>
+            <p>La presencia digital de la Pyme ha sido eliminada...</p>
+            <p class="usb-msg">"Usa la tecnología, la creatividad y tu ingenio para traerlo de vuelta."</p>
+            <button id="btn-recover" class="btn-glitch">INICIALIZAR PROTOCOLO DE RECUPERACIÓN</button>
+        </div>
+    </div>
+
+    <!-- Encabezado Principal -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">CYBERTECH <span>2.0</span></div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">El Misterio</a></li>
+                <li><a href="servicios.html">Servicios 2.0</a></li>
+                <li><a href="contacto.html">Pruebas & Contacto</a></li>
+            </ul>
+            <button id="theme-toggle" class="btn-theme">🌙 Modo Oscuro</button>
+        </nav>
+    </header>
+
+    <!-- Contenido Principal -->
+    <main>
+        <section class="hero">
+            <h1 class="hero-title">El Día que Fuimos Borrados... y Cómo Volvimos Más Fuertes</h1>
+            <p class="hero-subtitle">
+                De la noche a la mañana, nuestra web y redes desaparecieron. Pero un USB con un misterioso mensaje nos impulsó a reinventar el futuro digital de República Dominicana.
+            </p>
+        </section>
+
+        <section class="mystery-story">
+            <h2>El Incidente del USB</h2>
+            <article class="timeline-card">
+                <h3>03:00 AM — Borrado Masivo</h3>
+                <p>Nuestra huella digital fue completamente erradicada. Servidores, perfiles sociales e historial de clientes desaparecieron en cuestión de segundos.</p>
+            </article>
+            <article class="timeline-card">
+                <h3>08:00 AM — El Hallazgo</h3>
+                <p>Encontramos un pendrive USB sobre la mesa principal con el desafío: <em>"Reinventen su negocio o permanezcan en el olvido"</em>.</p>
+            </article>
+            <article class="timeline-card">
+                <h3>12:00 PM — La Resurrección</h3>
+                <p>Implementamos arquitectura descentralizada, seguridad cuántica y una nueva interfaz cyberpunk ultra-resiliente.</p>
+            </article>
+        </section>
+    </main>
+
+    <!-- Chatbot Widget -->
+    <div id="chatbot-container" class="chatbot-container">
+        <div class="chatbot-header">
+            <span>🤖 NEXUS AI (Asistente 2.0)</span>
+            <button id="chatbot-close">✖</button>
+        </div>
+        <div id="chatbot-messages" class="chatbot-messages">
+            <p class="bot-msg">¡Hola! Soy NEXUS, el sistema de asistencia guiada. ¿En qué te puedo ayudar hoy?</p>
+        </div>
+        <div class="chatbot-input">
+            <input type="text" id="chat-input" placeholder="Escribe tu consulta...">
+            <button id="chat-send">Enviar</button>
+        </div>
+    </div>
+    <button id="chatbot-toggle" class="chatbot-fab">💬</button>
+
+    <footer>
+        <p>&copy; 2026 CyberTech RD — Reinventando la Pyme Dominicana. Presiona [CTRL + ALT + H] para un secreto.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
